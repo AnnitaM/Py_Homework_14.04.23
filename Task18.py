@@ -27,23 +27,3 @@ print(f"Closest element to {set_num} is {array[position]}")
 
 
 
-
-
-
-
-
-
-
-# for i in range(0, len(array)):
-#     if abs(array[i] - setting_num) < abs(array[i+1] - setting_num):
-#         result = array[i]
-
-
-# dfrnc = []
-# for i in range(len (array)):
-#     result = abs(array[i] - setting_num)
-#     dfrnc.append(result)
-# print(dfrnc)
-# dfrnc_min = min(dfrnc)
-# lst = [[a, d] for a in array for d in dfrnc]
-# clsst_num =
