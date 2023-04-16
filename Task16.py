@@ -8,8 +8,8 @@
 #     -> 1
 
 nums_elem = int(input("Enter the number of elemens in array: "))
-array = input().split()
-unkn_num = input("Enter the unknown number: ")
-print(array)
+array = [int(i) for i in input().split()]
+unkn_num = int(input("Enter the unknown number: "))
+
 print(f"The number {unkn_num} occurs in array {array.count(unkn_num)} times")
 
